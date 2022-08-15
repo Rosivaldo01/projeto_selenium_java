@@ -21,6 +21,7 @@ public class CadastroNaoAutorizadoTest {
     String senhaNaoValida = "0123456";
     String botaoCadastra = "//*[@id=\"__next\"]/div/div[2]/div/div[2]/form/button";
     String mensagemAtencao=  "//*[@id=\"modalText\"]";
+    
 
 // Este método testa o não preenchimento dos campos obrigatórios.
     @Test
