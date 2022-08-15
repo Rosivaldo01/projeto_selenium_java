@@ -24,9 +24,8 @@ public class CadastroTest {
 
     //Este método testa o cadastro do bugBank
     @Test
-
     public void cadastroComSucesso(){
-        System.setProperty("webdriver.chrome.driver","C://Users//deniz//Downloads//chromedriver_win32//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C://Users//deniz//Downloads//chromedriver.exe");
         ChromeDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
         driver.get(home);

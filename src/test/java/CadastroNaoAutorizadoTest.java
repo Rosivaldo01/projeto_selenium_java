@@ -21,7 +21,7 @@ public class CadastroNaoAutorizadoTest {
     String senhaNaoValida = "0123456";
     String botaoCadastra = "//*[@id=\"__next\"]/div/div[2]/div/div[2]/form/button";
     String mensagemAtencao=  "//*[@id=\"modalText\"]";
-    
+
 
 // Este método testa o não preenchimento dos campos obrigatórios.
     @Test
@@ -38,7 +38,7 @@ public class CadastroNaoAutorizadoTest {
  // Este método testa o não Registro de senha difenrente no Cadastro do usuário.
 @Test
     public void naoCadastroComSenhaDiferente(){
-    System.setProperty("webdriver.chrome.driver","C://Users//deniz//Downloads//chromedriver_win32//chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver","C://Users//deniz//Downloads//chromedriver.exe");
     ChromeDriver driver = new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
     driver.get(home);
